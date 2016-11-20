@@ -1,0 +1,83 @@
+a: hover
+{
+    background: #000;
+}
+#styles li
+{
+    border: 1px solid #fff;
+    color: aqua;
+    font-family:"Cuprum". sans-serifS;
+    list-style: armenian;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table {
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+    width: 70%; /* Ширина таблицы */
+    margin-left: 70px;
+   }
+p {
+   
+    text-indent: 20px; 
+   }
+h1
+ { 
+    
+     text-indent: 20px;
+     font-weight:normal;
+         font-weight:normal; 
+          margin-left: 20px;
+      }
+h2{
+    
+    text-indent: 20px;
+            font-weight:normal; 
+          margin-left: 35px;
+      }
+.hr-hard{
+    color:#A020F0;
+     background-color: black;
+        height: 2px;
+        font-weight: normal;
+}
+.hr-lig{
+    color:#A020F0;
+        background-color: black;
+        height: 1px;
+        font-weight: normal;
+      margin-left: 35px;
+    margin-right: 35px;
+}
+p
+{
+    color="orange";
+}
+#navigation
+{
+    height: 15px;
+}
+#navigation ul li
+{
+    list-style-type: none;
+    float: left;
+    
+}
+#navigation ul li a
+{
+    line-height: 15px;
+    color: rgba(60, 49, 49, 0.71);
+    padding:0 15px ;
+    font-family: ;
+    text-decoration: none;
+    line-height: 15px;
+    
+}
+#navigation ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
