@@ -19,10 +19,7 @@ table {
     width: 70%; /* Ширина таблицы */
     margin-left: 70px;
    }
-p {
-   
-    text-indent: 20px; 
-   }
+
 h1
  { 
     
@@ -51,33 +48,7 @@ h2{
       margin-left: 35px;
     margin-right: 35px;
 }
-p
+td
 {
-    color="orange";
+    vertical-align: top;
 }
-#navigation
-{
-    height: 15px;
-}
-#navigation ul li
-{
-    list-style-type: none;
-    float: left;
-    
-}
-#navigation ul li a
-{
-    line-height: 15px;
-    color: rgba(60, 49, 49, 0.71);
-    padding:0 15px ;
-    font-family: ;
-    text-decoration: none;
-    line-height: 15px;
-    
-}
-#navigation ul li a:hover
-{
-    text-decoration: underline;
-    color: black;
-}
-
