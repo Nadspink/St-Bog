@@ -51,7 +51,10 @@ td
 }
 #Menu
 {
+<<<<<<< HEAD
     width: 300px;
+=======
+>>>>>>> origin/master
     float: right;
     margin-left: 70%;
 }
@@ -79,6 +82,7 @@ td
     padding: 3px; /* Поля вокруг текста */
    }
 
+<<<<<<< HEAD
 #tops
 {
     margin-top: -200px;
@@ -107,3 +111,23 @@ tbody tr:hover
        z-index:1;
     margin-top: 70px;
 }
+=======
+#line
+{
+    margin-top: 70px;
+}
+.p-top
+{
+    float: right;
+}
+tbody tr:hover
+{
+   background: rgba(196, 193, 193, 0.84);
+    color: #000000; /* Цвет текста при наведении */
+}
+#hv
+{
+    float: left;
+    width: 600px;
+}
+>>>>>>> origin/master
