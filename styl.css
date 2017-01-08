@@ -51,6 +51,8 @@ td
 }
 #Menu
 {
+    width: 300px;
+    float: right;
     margin-left: 70%;
 }
 #Menu a 
@@ -60,8 +62,11 @@ td
 }
 #Menu a:hover
 {
+    
     background: rgba(196, 193, 193, 0.84);
+    border: 3px solid rgba(196, 193, 193, 0.84);
     color: black;
+     
 }
  ul.hr {
     margin: 0; /* Обнуляем значение отступов */
@@ -73,7 +78,32 @@ td
     border-left: 1px solid #000; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
    }
-#hk
+
+#tops
 {
-    margin-right: 35%;
+    margin-top: -200px;
+
+ 
+    z-index:2; 
+    margin-left: 95%;
+    position: fixed;
+ 
+}
+tbody tr:hover
+{
+      
+   border; 40px;
+   background: rgba(196, 193, 193, 0.84);
+   color: #000000; /* Цвет текста при наведении */
+ 
+}
+#hv
+{
+  
+    width: 600px;
+}
+#content
+{
+       z-index:1;
+    margin-top: 70px;
 }
