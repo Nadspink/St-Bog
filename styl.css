@@ -30,12 +30,14 @@ h2{
         font-weight: normal;
 }
 .hr-lig{
+     line-height: 0px;
     color:#A020F0;
         background-color: black;
         height: 1px;
         font-weight: normal;
       margin-left: 35px;
     margin-right: 35px;
+    margin-top: 0px;
 }
 td
 {
@@ -43,6 +45,7 @@ td
 }
 .td-1
 {
+     
     width: 25%;
 }
 .td-end
@@ -51,10 +54,7 @@ td
 }
 #Menu
 {
-<<<<<<< HEAD
     width: 300px;
-=======
->>>>>>> origin/master
     float: right;
     margin-left: 70%;
 }
@@ -82,12 +82,9 @@ td
     padding: 3px; /* Поля вокруг текста */
    }
 
-<<<<<<< HEAD
 #tops
 {
-    margin-top: -200px;
-
- 
+    margin-top: -15%;
     z-index:2; 
     margin-left: 95%;
     position: fixed;
@@ -111,23 +108,3 @@ tbody tr:hover
        z-index:1;
     margin-top: 70px;
 }
-=======
-#line
-{
-    margin-top: 70px;
-}
-.p-top
-{
-    float: right;
-}
-tbody tr:hover
-{
-   background: rgba(196, 193, 193, 0.84);
-    color: #000000; /* Цвет текста при наведении */
-}
-#hv
-{
-    float: left;
-    width: 600px;
-}
->>>>>>> origin/master
