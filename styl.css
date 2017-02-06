@@ -38,6 +38,11 @@ h2{
       margin-left: 35px;
     margin-right: 35px;
 }
+.linem { 
+    border-left: 2px solid #ccc; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+   }
 td
 {
     padding-left: 55px;
@@ -67,19 +72,18 @@ td
 {
     
     background: rgba(196, 193, 193, 0.84);
-    border: 3px solid rgba(196, 193, 193, 0.84);
     color: black;
      
 }
  ul.hr {
     margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+    padding: 5px; /* Значение полей */
    }
    ul.hr li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    margin-right: 2px; /* Отступ слева */
     border-left: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
+    padding: 0px; /* Поля вокруг текста */
    }
 
 #tops
@@ -102,7 +106,6 @@ tbody tr:hover
 }
 #hv
 {
-  
     width: 600px;
 }
 #content
