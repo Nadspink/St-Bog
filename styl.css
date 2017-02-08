@@ -110,6 +110,7 @@ tbody tr:hover
 }
 #content
 {
+    min-width: 500px;
        z-index:1;
     margin-top: 70px;
 }
